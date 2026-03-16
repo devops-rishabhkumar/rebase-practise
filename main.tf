@@ -17,3 +17,7 @@ resource "azurerm_resource_group" "rg3" {
   name     = "rg-change3"
   location = "eastus"
 }
+resource "azurerm_storage_container" "container2" {
+    name = "tf.state"
+    container_access_type = "public"
+}
