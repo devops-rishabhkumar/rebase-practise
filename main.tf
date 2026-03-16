@@ -8,7 +8,7 @@ resource "azurerm_storage_container" "container" {
     container_access_type = "private"
 }
 
-# resource "azurerm_resource_group" "change1" {
-#   name     = "rg-change"
-#   location = "eastus"
-# }
+resource "azurerm_resource_group" "change1" {
+  name     = "rg-change"
+  location = "eastus"
+}
