@@ -26,3 +26,18 @@ resource "azurerm_storage_container" "container3" {
     name = "tf.state"
     container_access_type = "public"
 }
+
+resource "azurerm_storage_container" "container6" {
+    name = "tf.state"
+    container_access_type = "public"
+}
+
+resource "azurerm_storage_container" "container4" {
+    name = "tf.state"
+    container_access_type = "public"
+}
+
+resource "azurerm_storage_container" "container5" {
+    name = "tf.state"
+    container_access_type = "public"
+}
