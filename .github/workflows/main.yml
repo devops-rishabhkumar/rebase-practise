@@ -9,4 +9,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Program
-        run: "Hello World"
+        run: write-host "Hello World"
