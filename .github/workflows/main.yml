@@ -6,7 +6,7 @@ on:
 jobs:
   my_first_job:
     name: My First Job
-    runs-on: ubuntu-slim
+    runs-on: windows-latest
     steps:
       - name: Program
-        run: echo "Hello World"
+        run: "Hello World"
